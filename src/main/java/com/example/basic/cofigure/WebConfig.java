@@ -9,6 +9,6 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry){
-        registry.addMapping("/api/**").allowedOrigins("http://127.0.0.1:5500").allowedMethods("*").allowCredentials(true);
+        registry.addMapping("/api/**").allowedOrigins("https://aplaco.github.io/alpaco_client").allowedMethods("*").allowCredentials(true);
     }
 }
